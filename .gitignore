@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+/content/drive/
+*.pt
+*.bin
+*.safetensors
+adapters/
+raw_evals/
