@@ -1,0 +1,6 @@
+Benchmark,Task_ID,Baseline_Accuracy (%)
+GSM8K (Target Task - Math),gsm8k,0.0
+MMLU (Broad Academia),mmlu,61.19
+ARC-Challenge (Science Reasoning),arc_challenge,47.0
+HellaSwag (Commonsense Inference),hellaswag,67.0
+Winogrande (Language Understanding),winogrande,72.0
