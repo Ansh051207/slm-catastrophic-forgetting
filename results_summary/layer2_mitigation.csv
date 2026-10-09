@@ -1,0 +1,6 @@
+Benchmark,Task_ID,Base (%),Vanilla_300 (%),Δ_Vanilla,Replay_300 (%),Δ_Replay,CRR_Replay,Recovery (Δ_rec)
+GSM8K (Target - Math),gsm8k,50.0,54.0,4.0,58.0,8.0,1.16,4.0
+MMLU (Broad Academia),mmlu,61.19,60.98,-0.21,61.0,-0.19,0.997,0.02
+ARC-Challenge (Science Reasoning),arc_challenge,47.0,43.0,-4.0,40.0,-7.0,0.851,-3.0
+HellaSwag (Commonsense),hellaswag,67.0,66.0,-1.0,64.0,-3.0,0.955,-2.0
+Winogrande (Language Understanding),winogrande,72.0,67.0,-5.0,68.0,-4.0,0.944,1.0
