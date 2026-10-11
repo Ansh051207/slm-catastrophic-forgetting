@@ -1,0 +1,6 @@
+Benchmark,Task_ID,Baseline,Vanilla_100,Vanilla_300,Replay_300,Targeted_300,CRR_Vanilla_300,CRR_Replay_300,CRR_Targeted_300
+GSM8K (Target - Math),gsm8k,50.0,64.0,54.0,58.0,60.0,1.08,1.16,1.2
+MMLU (Broad Academia),mmlu,61.19,60.93,60.98,61.0,60.72,0.997,0.997,0.992
+ARC-Challenge (Science),arc_challenge,47.0,42.0,43.0,40.0,42.0,0.915,0.851,0.894
+HellaSwag (Commonsense),hellaswag,67.0,68.0,66.0,64.0,66.0,0.985,0.955,0.985
+Winogrande (Language),winogrande,72.0,71.0,67.0,68.0,69.0,0.931,0.944,0.958
