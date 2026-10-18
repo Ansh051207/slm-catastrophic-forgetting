@@ -1,0 +1,5 @@
+Strategy,GSM8K (Math %),ARC-C (Science %),Description
+Baseline (Zero-Shot),50.0,47.0,Pre-trained unadapted base model
+Layer 1: Single Math LoRA,54.0,43.0,Specialized only on GSM8K
+Layer 4: Sequential (Math -> Sci),60.0,46.0,Continual fine-tuning across domains
+Layer 5: Task Arithmetic Merged,63.0,43.0,0.5 * Math_LoRA + 0.5 * Sci_LoRA
